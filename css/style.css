@@ -439,6 +439,22 @@ input[type=submit]{
     /*right: 61%;*/
 }
 
+#random{
+    height: 350px;
+    background-color: white;
+
+}
+
+#random h2{
+    text-align: center; 
+    display: block;
+    font-size: 36px;
+    color: #64B6AC;
+    width: 100%;
+    margin: 0;
+    padding-bottom: .4em; 
+}
+
 footer{
 	height: 60px;
     background-color: #F5F5F5;
@@ -601,4 +617,18 @@ textarea{
     .min-appear{
         display: none;
     }
+}
+.row{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.col-40{
+    width: 40%;
+    
+}
+.col-60{
+    width: 60%;
+    padding-left: 4em;
 }
